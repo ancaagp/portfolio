@@ -1,0 +1,31 @@
+.homepage {
+    height: 400px;
+    background-color: chartreuse;
+}
+
+.about {
+    height: 400px;
+    background-color: blue;
+}
+
+.projects {
+    height: 400px;
+    background-color: lime;
+}
+
+.contact {
+    height: 400px;
+    background-color: red;
+}
+
+/* sticky navbar */
+/* .navbar {
+    height: 100px;
+    width: 100%; 
+    display: flex;
+    background-color: #08090C;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} */
