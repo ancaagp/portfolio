@@ -1,11 +1,279 @@
-.homepage {
-    height: 400px;
-    background-color: chartreuse;
+* {
+	box-sizing: border-box;
+    /* color: #17252A; */
+    /* font-family: 'Inter', sans-serif; */
+    /* background-color: rgb(251, 251, 251); */
 }
 
-.about {
+
+ /* NAVIGATION MENU */
+
+
+.navbar {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	display: block;
+    text-align: right;
+ }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+a {
+	color: #17252A;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
+
+a:hover {
+	/* color: #5bccf6; */
+    cursor: pointer;
+}
+
+.navbar ul li:last-child {
+    margin-right: 7%;
+  }
+
+
+/* Underline fill in navigation menu items */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav.navbar ul li a {
+  position: relative;
+}
+
+nav.navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #5bccf6;
+  height: 5px;
+}
+
+nav.navbar ul li a:hover:after {
+  width: 70%;
+}
+
+
+h1 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem; */
+
+
+/* .hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* 
+@media (min-width: 769px) {
+	.navbar{
+		display: flex;
+	}
+
+} */
+/* 
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    a {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+} */
+
+
+
+.homepage {
     height: 400px;
-    background-color: blue;
+    width: auto;
+    background-color: #fcde67;
+    position: relative;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.homepage-title {
+    font-family: 'Fira Code', monospace;
+    font-size: 35px;
+    color: #17252A;
+    padding-bottom: 10px;
+}
+
+.homepage-subtitle {
+    font-family: 'Fira Code', monospace;
+    font-size: 25px;
+    color: #17252A;
+    padding-bottom: 10px;
+}
+
+.homepage-description {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    color: #17252A;
+}
+
+span {
+    margin-left: 15%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+.about {
+    height: auto;
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 16px;
+    /* background-color: rgb(240, 245, 240); */
+}
+
+/* .profile-image-container {
+    height: 200px;
+    text-align: right;
+} */
+
+.bio {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    margin: 10px 0px;
+    font-family: 'Inter', sans-serif;
+    color: #17252A;
+    
+}
+
+.about-me {
+    flex: 2;
+    margin: 3%;
+}
+
+.profile-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    max-width: 80%;
+    display: block;
+    border: 15px solid #fcde67;
+    margin-bottom: 20px;
+}
+
+
+.skills-title {
+    margin-bottom: 15px;
+}
+
+.edu-title {
+    margin-bottom: 15px;
+}
+
+.skills-edu-section {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #17252A;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+.skills-list li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #5bccf6;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Fira Code', monospace;
+}
+
+.edu-list li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.edu-list li::before {
+    content: "▹ ";
 }
 
 .projects {
@@ -28,4 +296,77 @@
     position: sticky;
     top: 0;
     z-index: 1;
+} */
+
+@media (min-width: 780px) {
+
+    .navbar {
+        /* Sticky navbar */
+        background-color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+     }
+
+    .bio {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .profile-image {
+        max-width: 70%;
+        /* justify-content: flex-end; */
+        display: block;
+        /* align-items: flex-end; */
+        /* object-fit: scale-down; */
+        border: 15px solid #5bccf6;
+        margin: 0;
+        /* text-align: right; */
+    }
+
+    .skills-edu-section {
+        margin: 3%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .edu-list li {
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    
+    .education {
+        flex: 1;
+        margin-left: 30px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .skills-list li {
+        font-family: 'Fira Code', monospace;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #5bccf6;
+        border-radius: 8px;
+        color: white;
+    }
+
+}
+/* 
+@media screen and (max-width: 780px)  {
+    .line-break { display: none; }
+} */
+
+/* 
+@media screen and (max-width: 780px)  {
+    .line-break { display: none; }
 } */

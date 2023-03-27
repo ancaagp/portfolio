@@ -1,3 +1,4 @@
+import React from 'react';
 import Navigation from './components/Navigation';
 import Homepage from './components/Homepage';
 import About from './components/About';

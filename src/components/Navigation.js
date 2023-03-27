@@ -1,9 +1,10 @@
+import React from 'react';
 import { Link } from "react-scroll";
 
 function Navigation () {
     return (
-        <div className="navbar">
-            <ul>
+        <nav className="navbar">
+            <ul className="nav-menu">
                 <li>
                     <Link 
                     activeClass="active"
@@ -40,7 +41,7 @@ function Navigation () {
                 </li>
             </ul>
 
-        </div>
+        </nav>
     )
 }
 

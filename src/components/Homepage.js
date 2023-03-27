@@ -1,6 +1,20 @@
+import React, { useEffect, useState } from 'react';
+import Typewriter from '../utils/Typewriter';
+
 function Homepage () {
     return (
-        <div className="homepage" id="homepage">This is my homepage</div>
+        <div className="homepage" id="homepage">
+            <span>
+                <div className="homepage-title">Anca Agapi</div>
+                <div className="homepage-subtitle">Product Engineer</div>
+                <div className="homepage-description" id="homepage-description">
+                    <Typewriter 
+                        refreshTime="120">
+                        I help companies build user centric products
+                    </Typewriter>
+                </div>
+            </span>
+        </div>
     )
 }
 
