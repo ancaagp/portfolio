@@ -8,7 +8,7 @@ import './style.css';
 
 function App () {
     return (
-        <div>
+        <div className="main-container">
             <Navigation />
             <Homepage />
             <About />

@@ -1,5 +1,6 @@
 import React from 'react';
 import anca_img from '../images/aa_li.jpeg';
+import '../style.css';
 
 function About () {
     return (
