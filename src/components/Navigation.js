@@ -28,6 +28,7 @@ function Navigation () {
                             onClick={handleShowNavbar}
                             activeClass="active"
                             to="homepage"
+                            offset={-80}
                             spy={true}
                             smooth={true}
                             duration={500}>
@@ -37,6 +38,7 @@ function Navigation () {
                             // onClick={handleShowNavbar}
                             activeClass="active"
                             to="about"
+                            offset={-80}
                             spy={true}
                             smooth={true}
                             duration={500}>
@@ -46,6 +48,7 @@ function Navigation () {
                             onClick={handleShowNavbar}
                             activeClass="active"
                             to="projects"
+                            offset={-80}
                             spy={true}
                             smooth={true}
                             duration={500}>
@@ -55,6 +58,7 @@ function Navigation () {
                             onClick={handleShowNavbar}
                             activeClass="active"
                             to="contact"
+                            offset={-80}
                             spy={true}
                             smooth={true}
                             duration={500}>

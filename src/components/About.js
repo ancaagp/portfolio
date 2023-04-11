@@ -23,7 +23,7 @@ function About () {
                     height: '1px',
                     opacity: '50%',
                     border: 'none',
-                    margin: '10px'
+                    margin: '3vw 20vw'
                 }}
             />
 
@@ -37,9 +37,9 @@ function About () {
                         <li className="skills-item">NodeJS</li>
                         <li className="skills-item">Python</li>
                         <li className="skills-item">SQL</li>
+                        <li className="skills-item">QlikSense</li>
                         <li className="skills-item">Google Analytics</li>
                         <li className="skills-item">Adobe Analytics</li>
-                        <li className="skills-item">QlikSense</li>
                         <li className="skills-item">Product management</li>
                     </ul>
                     {/* <ul className="skills-empty">Some companies and organisations I worked with:
@@ -54,10 +54,10 @@ function About () {
                 <div className="education">
                     <h1 className="edu-title">EDUCATION</h1>
                     <ul className="edu-list">
-                        <li>Full-Stack Software Engineering - General Assembly</li>
-                        <li>Big Data Analytics - Arcada University of Applied Science</li>
-                        <li>MSc in International Management - CEMS MIM / HEC Paris</li>
-                        <li>MSc in Marketing - Aalto University</li>
+                        <li>Full-Stack Software Engineering - General Assembly, San Francisco</li>
+                        <li>Big Data Analytics - Arcada University of Applied Science, Helsinki</li>
+                        <li>MSc in International Management - CEMS MIM / HEC Paris, Helsinki/ Paris</li>
+                        <li>MSc in Marketing - Aalto University, Helsinki</li>
                     </ul>
                 </div>
             </div>
