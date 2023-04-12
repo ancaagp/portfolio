@@ -35,7 +35,7 @@ function Navigation () {
                                 Homepage
                         </Link>
                         <Link 
-                            // onClick={handleShowNavbar}
+                            onClick={handleShowNavbar}
                             activeClass="active"
                             to="about"
                             offset={-80}
@@ -48,7 +48,7 @@ function Navigation () {
                             onClick={handleShowNavbar}
                             activeClass="active"
                             to="projects"
-                            offset={-80}
+                            offset={-180}
                             spy={true}
                             smooth={true}
                             duration={500}>

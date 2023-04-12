@@ -21,7 +21,7 @@ function Contact () {
                     height: '1px',
                     opacity: '50%',
                     border: 'none',
-                    margin: '3vw 20vw'
+                    margin: '5vw 20vw'
                 }}
             />
 

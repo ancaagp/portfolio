@@ -8,8 +8,19 @@ function About () {
         <div className="about" id="about"> 
             <div className="bio">
                 <div className="about-me">
-                        <h1>ABOUT</h1>
-                        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                        <h1 className="about-title title">ABOUT</h1>
+                        <p>I want to help companies solve customer problems and build user centric products by combining my background in marketing and management with my skills in software development and big data analytics. My previous roles in multiple industries taught me to be a fast learner and adapt easily to new environments. I am an idea generator, who always creates a positive atmosphere and who takes initiative to turn challenges into opportunities. 
+                            <br />
+                            <ol>
+                            Guided by the CEMS values:
+                       <li>1. The pursuit of excellence with high standards of performance and ethical conduct;</li> 
+                       <li>2. Understanding and drawing upon cultural diversity with respect and empathy;</li> 
+                       <li>3. Professional responsibility and accountability in relation to society as a whole.</li> 
+                        
+                        
+                            </ol>
+
+                        </p>
                     </div>
                     <div className="profile-image-container">
                         <img className= "profile-image" src={anca_img} alt="profile image"/>
@@ -23,19 +34,24 @@ function About () {
                     height: '1px',
                     opacity: '50%',
                     border: 'none',
-                    margin: '3vw 20vw'
+                    margin: '5vw 20vw'
                 }}
             />
 
 
             <div className="skills-edu-section">
                 <div className="skills">
-                    <h1 className="skills-title">SKILLS</h1>
+                    <h1 className="skills-title title">SKILLS</h1>
                     <ul className="skills-list">
                         <li className="skills-item">Javascript</li>
                         <li className="skills-item">React</li>
                         <li className="skills-item">NodeJS</li>
+                        <li className="skills-item">Flask</li>
+                        <li className="skills-item">MongoDB</li>
+                        <li className="skills-item">AJAX</li>
+                        <li className="skills-item">Express</li>
                         <li className="skills-item">Python</li>
+                        <li className="skills-item">CSS</li>
                         <li className="skills-item">SQL</li>
                         <li className="skills-item">QlikSense</li>
                         <li className="skills-item">Google Analytics</li>
@@ -52,7 +68,7 @@ function About () {
                     </ul> */}
                 </div>
                 <div className="education">
-                    <h1 className="edu-title">EDUCATION</h1>
+                    <h1 className="edu-title title">EDUCATION</h1>
                     <ul className="edu-list">
                         <li>Full-Stack Software Engineering - General Assembly, San Francisco</li>
                         <li>Big Data Analytics - Arcada University of Applied Science, Helsinki</li>
