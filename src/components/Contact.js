@@ -21,7 +21,7 @@ function Contact () {
                     height: '1px',
                     opacity: '50%',
                     border: 'none',
-                    margin: '5vw 20vw'
+                    margin: '10vh 20vw'
                 }}
             />
 
@@ -35,7 +35,7 @@ function Contact () {
                     <img className="github-icon" src={github_icon_32} />
                 </a>
                 <a href="https://www.linkedin.com/in/ancaagapi/" target="_blank">
-                    <img className="linkedin-icon" style={styles} src={linkedin_26} />
+                    <img className="linkedin-icon" src={linkedin_26} />
                 </a>
             </div>
         </div>

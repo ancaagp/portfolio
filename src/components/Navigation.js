@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function Navigation () {
 
-    const [showNavbar, setShowNavbar] = useState(false)
+    const [showNavbar, setShowNavbar] = useState(true)
 
     const handleShowNavbar = () => {
       setShowNavbar(!showNavbar)

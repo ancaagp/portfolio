@@ -6,25 +6,30 @@ function About () {
     return (
 
         <div className="about" id="about"> 
+            <h1 className="about-title title">ABOUT</h1>
             <div className="bio">
                 <div className="about-me">
-                        <h1 className="about-title title">ABOUT</h1>
-                        <p>I want to help companies solve customer problems and build user centric products by combining my background in marketing and management with my skills in software development and big data analytics. My previous roles in multiple industries taught me to be a fast learner and adapt easily to new environments. I am an idea generator, who always creates a positive atmosphere and who takes initiative to turn challenges into opportunities. 
-                            <br />
-                            <ol>
-                            Guided by the CEMS values:
-                       <li>1. The pursuit of excellence with high standards of performance and ethical conduct;</li> 
-                       <li>2. Understanding and drawing upon cultural diversity with respect and empathy;</li> 
-                       <li>3. Professional responsibility and accountability in relation to society as a whole.</li> 
-                        
-                        
-                            </ol>
-
+                    <text className="about-me">
+                        <p>
+                        Marketer turned software engineer, I enjoy building user centric products and solving complex customer problems. My background lies at the intersection of marketing, data and tech. After working in tech teams as a Product Manager I decided to pursue my passion for technology and transition into a career as a software engineer. 
                         </p>
-                    </div>
-                    <div className="profile-image-container">
-                        <img className= "profile-image" src={anca_img} alt="profile image"/>
-                    </div>
+                 
+                        <br />
+                        <p>
+                        Thanks to my marketing background, I bring a unique perspective to my role as a software engineer. I understand the importance of user experience and the value of creating products that meet customer needs. My previous roles also help me to communicate effectively with other members of the development team and to understand the overall goals of a project.                         
+                        <br />
+                        I am an idea generator, who always creates a positive atmosphere and who takes initiative to turn challenges into opportunities. 
+                        </p>
+
+                        <br/>
+                        <p>
+                        When I’m not in front of my laptop, I like to be outdoors and enjoy the nature while running or biking the trails of California.
+                        </p>
+                    </text>
+                </div>
+                <div className="profile-image-container">
+                    <img className= "profile-image" src={anca_img} alt="profile image"/>
+                </div>
             </div>
 
             {/* adding line divider between questions */}
@@ -58,14 +63,6 @@ function About () {
                         <li className="skills-item">Adobe Analytics</li>
                         <li className="skills-item">Product management</li>
                     </ul>
-                    {/* <ul className="skills-empty">Some companies and organisations I worked with:
-                        <li>KONE</li>
-                        <li>DDB Paris</li>
-                        <li>Aalto University Executive Education</li>
-                        <li>PharmaSynth</li>
-                        <li>AIESEC</li>
-                    
-                    </ul> */}
                 </div>
                 <div className="education">
                     <h1 className="edu-title title">EDUCATION</h1>

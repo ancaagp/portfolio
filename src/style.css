@@ -132,8 +132,13 @@ span {
 
 .about {
     height: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     font-size: 16px;
+}
+
+.about-me {
+    line-height: 1.5;
+    flex: 2;
 }
 
 
@@ -143,10 +148,6 @@ span {
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     color: #17252A;
-}
-
-.about-me {
-    flex: 2;
 }
 
 .profile-image-container {
@@ -159,7 +160,7 @@ span {
 .profile-image {
     max-width: 80%;
     display: block;
-    border: 15px solid #fcde67;
+    border: 10px solid #fcde67;
     margin-bottom: 20px;
 }
 
@@ -221,16 +222,23 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20px 0 20px;
 }
 
 .project-description {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .project-tools {
     font-family: 'Fira Code', monospace;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.project-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .project-links img {
@@ -288,10 +296,45 @@ span {
     font-size: 16px;
 }
 
+/* ----------------------LARGE SCREENS------------------------- */
+
+@media screen and (min-width: 1800px) {
+    .about-me {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .contact-collab {
+        font-size: 28px;
+    }
+
+    .contact-btn {
+        font-size: 24px;
+    }
+
+    #contact.contact {
+        font-size: 26px;
+    }
+
+    .github-icon {
+        width: 60px;
+    }
+
+    .linkedin-icon {
+        width: 43px;
+    }
+}
 
 /* ----------------------MOBILE STYLES------------------------- */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 830px) {
+
+    .secondary-container {
+        margin: 0 10px 0 10px;
+    }
 
     h1 {
         margin: 20px 0 20px 0;
@@ -346,6 +389,10 @@ span {
         margin-bottom: 5vh;
     }
 
+    .main-projects-container {
+        margin-bottom: 50px;
+    }
+
     .projects {
         flex-direction: column;
         justify-content: center;
@@ -379,12 +426,6 @@ span {
         margin-bottom: 10px;
     }
 
-    .project-name {
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-    }
-
     .project-description {
         margin: 10px;
     }
@@ -400,13 +441,33 @@ span {
     .footer {
         padding: 20px;
     }
+
+    .github-icon {
+        width: 40px;
+    }
+    
+    .linkedin-icon {
+        width: 30px;
+    }
     
 }
 
 
 /* ----------------------DESKTOP STYLES------------------------- */
 
-@media (min-width: 780px) {
+@media (min-width: 830px) {
+
+    .title {
+        font-size: 22px;
+    }
+
+    .about-title {
+        margin: 2vw 14vw 0 14vw;
+    }
+
+    .about-me {
+        font-size: 18px;
+    }
 
     .bio {
         margin: 2vw 14vw 0 14vw;
@@ -421,9 +482,9 @@ span {
     }
 
     .profile-image {
-        max-width: 60%;
+        max-width: 80%;
         display: block;
-        border: 15px solid #5bccf6;
+        border: 10px solid #5bccf6;
         margin: 0;
     }
 
@@ -437,6 +498,7 @@ span {
     .edu-list li {
         margin-bottom: 20px;
         line-height: normal;
+        font-size: 18px;
     }
 
     .skills {
@@ -495,25 +557,27 @@ span {
     }
 
     .project-name {
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
         margin: 10px;
     }
 
     .project-description {
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
         margin: 0 10px 10px 10px;
     }
 
     .project-tools {
-        font-size: 14px;
         margin: 0 10px 0 10px;
     }
 
     .project-links img {
         margin: 10px;
+    }
+
+    .github-icon {
+        width: 45px;
+    }
+    
+    .linkedin-icon {
+        width: 35px;
     }
 
 
