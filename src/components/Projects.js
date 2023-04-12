@@ -36,8 +36,13 @@ function Projects () {
                         </div>
                         <div className="project-tools">React • MongoDB • NodeJS • Express • Mongoose • Google Maps APIs • Materialize</div>
                         <div className="project-links">
-                            <img src={github_icon_32} />
-                            <img src={link_30}/>
+                            <a href="https://github.com/ancaagp/GroceriesHelpers-Frontend" target="_blank">
+                                <img src={github_icon_32} />
+                            </a>
+                            <a href="https://github.com/ancaagp/GroceriesHelpers-Backend" target="_blank">
+                                <img src={github_icon_32}/>
+                            </a>
+                           
                         </div>
                     </div>
                 </div>
@@ -58,8 +63,13 @@ function Projects () {
                         </div>
                         <div className="project-tools">React • Mobile responsive • APIs • CSS</div>
                         <div className="project-links">
-                            <img src={github_icon_32} />
-                            <img src={link_30}/>
+                            <a href="https://github.com/ancaagp/trivia" target="_blank">
+                                <img src={github_icon_32} />
+                            </a>
+                            <a href="https://incandescent-mousse-6e178b.netlify.app/" target="_blank">
+                                <img src={link_30}/>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -78,8 +88,10 @@ function Projects () {
                         </div>
                         <div className="project-tools">Python • Flask • SQLite • APIs </div>
                         <div className="project-links">
-                            <img src={github_icon_32} />
-                            <img src={link_30}/>
+                            <a href="https://github.com/ancaagp/stock_portfolio" target="_blank">
+                                <img src={github_icon_32} />
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -100,8 +112,9 @@ function Projects () {
                         </div>
                         <div className="project-tools">React • Mobile responsive • Vanilla CSS</div>
                         <div className="project-links">
-                            <img src={github_icon_32} />
-                            <img src={link_30}/>
+                            <a href="https://github.com/ancaagp/mini_paint" target="_blank">
+                                <img src={github_icon_32} />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -123,8 +136,12 @@ function Projects () {
                         </div>
                         <div className="project-tools">React • APIs • CSS</div>
                         <div className="project-links">
-                            <img src={github_icon_32} />
-                            <img src={link_30}/>
+                            <a href="https://github.com/ancaagp/meme_generator">
+                                <img src={github_icon_32} />
+                            </a>
+                            <a>
+                                <img src={link_30}/>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -4,9 +4,6 @@
     padding: 0;
     margin: 0;
 	box-sizing: border-box;
-    /* color: #17252A; */
-    /* font-family: 'Inter', sans-serif; */
-    /* background-color: rgb(251, 251, 251); */
 }
 
 li {
@@ -40,28 +37,6 @@ h1 {
 
  /* NAVIGATION MENU */
 
-/* .nav-menu li {
-    display: flex;
-    text-align: right;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin-top: 10px;
-	text-transform: uppercase;
-}
-
-.nav-menu a {
-	color: #17252A;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-family: 'Fira Code', monospace;
-    font-size: 16px;
-}
-
-.nav-menu a:hover {
-    cursor: pointer;
-} */
-
-
 .navbar {
     background-color: white;
     display: flex;
@@ -82,7 +57,6 @@ h1 {
 }
 
 #nav-menu-elements a {
-    /* padding: 0 20px; */
     position: relative;
     color: #17252A;
     text-decoration: none;
@@ -109,18 +83,6 @@ h1 {
     color: black;
 }
 
-/* .nav-menu-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 80px;
-}
-
-.nav-menu-mobile a {
-    padding: 0 20px;
-    position: relative;
-} */
-
 .homepage {
     height: 400px;
     width: auto;
@@ -135,14 +97,9 @@ h1 {
 
 .homepage-art {
     position: relative;
-    /* height: auto;
-
-    max-width: 100%; */
-    /* margin-left: 40%; */
     object-fit: contain;
     width: 100%;
     object-position: 40em 1em;
-    /* z-index: 3; */
 }
 
 .homepage-title {
@@ -176,26 +133,16 @@ span {
 .about {
     height: auto;
     margin-bottom: 10vh;
-    /* font-family: 'Inter', sans-serif; */
     font-size: 16px;
-    /* background-color: rgb(240, 245, 240); */
 }
 
-/* .profile-image-container {
-    height: 200px;
-    text-align: right;
-} */
 
 .bio {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    /* justify-content: space-around; */
     flex-direction: column;
-    /* margin: 3vw; */
     font-family: 'Inter', sans-serif;
     color: #17252A;
-    
 }
 
 .about-me {
@@ -218,7 +165,6 @@ span {
 
 .skills-edu-section {
     display: flex;
-    /* margin: 4vw; */
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     color: #17252A;
@@ -293,7 +239,6 @@ span {
 
 .contact {
     height: auto;
-    /* margin: 50px; */
     font-family: 'Inter', sans-serif;
     color: #17252A;
     text-align: center;
@@ -307,9 +252,7 @@ span {
     margin: 50px;
     padding: 15px;
     border-color: #17252A;
-    /* border: none; */
     border-radius: 10px;
-    /* border-style: solid; */
     background-color: #fcde67;
 }
 
@@ -412,8 +355,6 @@ span {
 
     .projects-title {
         margin-left: 4vw;
-        /* font-size: 24px;
-        font-weight: 600; */
     }
 
     .project-item {
@@ -437,10 +378,6 @@ span {
         width: 380px;
         margin-bottom: 10px;
     }
-
-    /* .projects-title {
-        margin-bottom: 20px;
-    } */
 
     .project-name {
         font-family: 'Inter', sans-serif;
@@ -467,154 +404,9 @@ span {
 }
 
 
-
-
-/* .navbar {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	display: block;
-    text-align: right;
- }
-
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-a {
-	color: #17252A;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-family: 'Fira Code', monospace;
-    font-size: 16px;
-}
-
-a:hover {
-    cursor: pointer;
-}
-
-.navbar ul li:last-child {
-    margin-right: 7%;
-  }  */
-
-
-/* Underline fill in navigation menu items */
-
-/* nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-
-nav.navbar ul li a {
-  position: relative;
-}
-
-nav.navbar ul li a:after, 
-nav.navbar ul li a.active:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #5bccf6;
-  height: 5px;
-}
-
-nav.navbar ul li a:hover:after, 
-nav.navbar ul li a.active:after {
-  width: 70%;
-} */
-
-
-/* MOBILE NAV */
-
-/* #mobile-nav {
-    display: none;
-}
-
-#mobile-nav i {
-    color: white;
-}
-
-@media screen and (max-width: 700px) {
-    .nav-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-    }
-} */
-
-/* //////////////////////////// */
-
-
-
-
-
-
-
-/* sticky navbar */
-/* .navbar {
-    height: 100px;
-    width: 100%; 
-    display: flex;
-    background-color: #08090C;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-} */
-
-
 /* ----------------------DESKTOP STYLES------------------------- */
 
 @media (min-width: 780px) {
-
-    /* .secondary-container {
-        margin: 0 14vw;
-    } */
-
-
-     /* Underline fill in navigation menu items */
-
-    /* nav ul li a,
-    nav ul li a:after,
-    nav ul li a:before {
-    transition: all .5s;
-    }
-
-    nav.navbar ul li a {
-    position: relative;
-    }
-
-    nav.navbar ul li a:after, 
-    nav.navbar ul li a.active:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: #5bccf6;
-    height: 5px;
-    }
-
-    nav.navbar ul li a:hover:after, 
-    nav.navbar ul li a.active:after {
-    width: 70%;
-    } */
-
-
-
 
     .bio {
         margin: 2vw 14vw 0 14vw;
@@ -630,37 +422,16 @@ nav.navbar ul li a.active:after {
 
     .profile-image {
         max-width: 60%;
-        /* justify-content: flex-end; */
         display: block;
-        /* align-items: flex-end; */
-        /* object-fit: scale-down; */
         border: 15px solid #5bccf6;
         margin: 0;
-        /* text-align: right; */
     }
-
-    .skills-title {
-        /* margin-bottom: 15px; */
-    }
-
-    /* h1::after {
-        content:"";
-        display:block;
-        width: 6em;
-        max-width:40%;
-        border-bottom: 0.2em solid #5bccf6;
-        margin-top: 0.5em;
-    } */
 
 
     .skills-edu-section {
         margin: 0 14vw;
         display: flex;
         flex-direction: row;
-    }
-
-    .edu-title {
-        /* margin-bottom: 15px; */
     }
 
     .edu-list li {
@@ -715,6 +486,7 @@ nav.navbar ul li a.active:after {
 
     .project-container {
         width: 420px;
+        max-height: 600px;
         margin: 20px;
     }
 
