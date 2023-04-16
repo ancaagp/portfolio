@@ -71,7 +71,7 @@ h1 {
 
 #nav-menu-elements a:hover, 
 #nav-menu-elements a.active {
-    color: #72787a;
+    color: #979d9e;
     transition: 0.3s;
 }
 
@@ -80,7 +80,7 @@ h1 {
 }
 
 #mobile-nav i {
-    color: black;
+    color: #17252A;
 }
 
 .homepage {
@@ -104,21 +104,21 @@ h1 {
 
 .homepage-title {
     font-family: 'Fira Code', monospace;
-    font-size: 35px;
+    font-size: 40px;
     color: #17252A;
     padding-bottom: 10px;
 }
 
 .homepage-subtitle {
     font-family: 'Fira Code', monospace;
-    font-size: 25px;
+    font-size: 30px;
     color: #17252A;
     padding-bottom: 10px;
 }
 
 .homepage-description {
     font-family: 'Fira Code', monospace;
-    font-size: 16px;
+    font-size: 24px;
     color: #17252A;
 }
 
@@ -296,37 +296,6 @@ span {
     font-size: 16px;
 }
 
-/* ----------------------LARGE SCREENS------------------------- */
-
-@media screen and (min-width: 1800px) {
-    .about-me {
-        font-size: 22px;
-    }
-
-    .title {
-        font-size: 28px;
-    }
-
-    .contact-collab {
-        font-size: 28px;
-    }
-
-    .contact-btn {
-        font-size: 24px;
-    }
-
-    #contact.contact {
-        font-size: 26px;
-    }
-
-    .github-icon {
-        width: 60px;
-    }
-
-    .linkedin-icon {
-        width: 43px;
-    }
-}
 
 /* ----------------------MOBILE STYLES------------------------- */
 
@@ -375,6 +344,18 @@ span {
     .homepage-art {
         object-fit: cover;
         object-position: 8em 1em;
+    }
+
+    .homepage-title {
+        font-size: 30px;
+    }
+    
+    .homepage-subtitle {
+        font-size: 28px;
+    }
+    
+    .homepage-description {
+        font-size: 22px;
     }
 
     .about {
@@ -523,8 +504,8 @@ span {
         color: white;
     }
 
-    .main-projects-container {
-        margin-top: 2vw;
+    #projects.projects {
+        margin: 0 50px;
     }
 
     .projects-title {
@@ -579,6 +560,36 @@ span {
     .linkedin-icon {
         width: 35px;
     }
+}
 
+/* ----------------------LARGE SCREENS------------------------- */
 
+@media screen and (min-width: 1800px) {
+    .about-me {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .contact-collab {
+        font-size: 28px;
+    }
+
+    .contact-btn {
+        font-size: 24px;
+    }
+
+    #contact.contact {
+        font-size: 26px;
+    }
+
+    .github-icon {
+        width: 60px;
+    }
+
+    .linkedin-icon {
+        width: 43px;
+    }
 }

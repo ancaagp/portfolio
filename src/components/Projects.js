@@ -1,11 +1,11 @@
 import React from 'react';
-import trivia from '../images/trivia_gif.mp4';
-import heart from '../images/valentines.mov';
-import GH from '../images/GH3.mp4';
+import trivia from '../images/trivia-gif-vf.gif';
+import heart from '../images/heart-gif-vf2.gif';
+import GH from '../images/gh-gif-vf4.gif';
 import github_icon_32 from '../images/contact/icons8-github-32.svg';
 import link_30 from '../images/contact/icons8-external-link-30.svg';
-import meme from '../images/meme2-gif.gif';
-import stock from '../images/stock-gif.gif';
+import meme from '../images/meme-gif-vf.gif';
+import stock from '../images/stock-gif-vf3.gif';
 import '../style.css';
 
 function Projects () {
@@ -23,18 +23,19 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <video className="project-video" playsInline autoPlay muted loop>
+                        <img className="project-video" src={GH} alt="groceries_helpers_gif" />
+                        {/* <video className="project-video" playsInline autoPlay muted loop>
                             <source src={GH} alt="trivia_gif" />
-                        </video>
+                        </video> */}
                     </div>
                     <div className="project-container">
                         <div className="project-name">
                             Groceries Helpers
                         </div>
                         <div className="project-description">
-                             Groceries helpers is social initiative that tries to help people in need with their groceries shopping and delivery. The project aims to respond to some of the needs caused by the COVID-19 epidemic, more specifically, to the shortage of safe food delivery. The platform connects people in need with those willing to offer help.
+                             Social initiative that tries to help people in need with their groceries shopping and delivery. The project aims to respond to the shortage of safe food delivery. The platform connects people in need with those willing to offer help.
                         </div>
-                        <div className="project-tools">React • MongoDB • NodeJS • Express • Mongoose • Google Maps APIs • Materialize</div>
+                        <div className="project-tools">React • MongoDB • NodeJS • Express • Mongoose • APIs • Materialize</div>
                         <div className="project-links">
                             <a href="https://github.com/ancaagp/GroceriesHelpers-Frontend" target="_blank">
                                 <img src={github_icon_32} />
@@ -50,16 +51,14 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <video className="project-video" playsInline autoPlay muted loop>
-                            <source src={trivia} alt="trivia_gif" />
-                        </video>
+                        <img className="project-video" src={trivia} alt="trivia_gif"/>
                     </div>
                     <div className="project-container">
                         <div className="project-name">
                             Trivia Game
                         </div>
                         <div className="project-description">
-                            General knowledge game based on Trivia APIs
+                            General knowledge game based on Trivia APIs. The application connects to the Trivia APIs.
                         </div>
                         <div className="project-tools">React • Mobile responsive • APIs • CSS</div>
                         <div className="project-links">
@@ -99,9 +98,7 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <video className="project-video" playsInline autoPlay muted loop>
-                            <source src={heart} alt="trivia_gif" />
-                        </video>
+                        <img className="project-video" src={heart} alt="heart_gif"/>
                     </div>
                     <div className="project-container">
                         <div className="project-name">
@@ -110,7 +107,7 @@ function Projects () {
                         <div className="project-description">
                              A pixelated clone of paint with features such as fill
                         </div>
-                        <div className="project-tools">React • Mobile responsive • Vanilla CSS</div>
+                        <div className="project-tools">React</div>
                         <div className="project-links">
                             <a href="https://github.com/ancaagp/mini_paint" target="_blank">
                                 <img src={github_icon_32} />

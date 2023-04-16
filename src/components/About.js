@@ -23,7 +23,7 @@ function About () {
 
                         <br/>
                         <p>
-                        When I’m not in front of my laptop, I like to be outdoors and enjoy the nature while running or biking the trails of California.
+                        When I’m not in front of my laptop, I like to be outdoors and enjoy the nature while running, biking or hiking the trails of California.
                         </p>
                     </text>
                 </div>
