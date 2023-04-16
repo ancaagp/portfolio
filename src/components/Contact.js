@@ -12,6 +12,7 @@ function Contact () {
 
 
     return (
+        <div>
         <div className="contact" id="contact">
 
             {/* adding line divider between questions */}
@@ -37,6 +38,15 @@ function Contact () {
                 <a href="https://www.linkedin.com/in/ancaagapi/" target="_blank">
                     <img className="linkedin-icon" src={linkedin_26} />
                 </a>
+            </div>
+
+
+
+        </div>
+
+            {/* favicon */}
+        <div className='favicon'>
+                A
             </div>
         </div>
     )

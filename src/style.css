@@ -593,3 +593,20 @@ span {
         width: 43px;
     }
 }
+
+.favicon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    font-family: 'Fira Code', monospace;
+    font-size: 400px;
+    background-color: #5bccf6;
+    color:white;
+    padding: 20px;
+    margin: 50px;
+    text-transform: lowercase;
+
+}
