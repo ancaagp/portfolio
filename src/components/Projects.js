@@ -30,7 +30,7 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                    <img className="project-video static" src={gh_static} alt="groceries_helpers_gif" />
+                    <img className="project-video static" src={gh_static} style={{backgroundColor: "white"}}alt="groceries_helpers_gif" />
                         <img className="project-video active" src={GH} alt="groceries_helpers_gif" />
                         {/* <video className="project-video" playsInline autoPlay muted loop>
                             <source src={GH} alt="trivia_gif" />
