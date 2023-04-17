@@ -6,6 +6,13 @@ import github_icon_32 from '../images/contact/icons8-github-32.svg';
 import link_30 from '../images/contact/icons8-external-link-30.svg';
 import meme from '../images/meme-gif-vf.gif';
 import stock from '../images/stock-gif-vf3.gif';
+import pinrecipe from '../images/pinrecipe-gif-vf1.gif';
+import heart_static from '../images/static/heart-static.png';
+import gh_static from '../images/static/gh-static.png';
+import meme_static from '../images/static/meme-static.png';
+import pinrecipe_static from '../images/static/pinrecipe-static.png';
+import stock_static from '../images/static/stock-static.png';
+import trivia_static from '../images/static/trivia-static.png';
 import '../style.css';
 
 function Projects () {
@@ -23,7 +30,8 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <img className="project-video" src={GH} alt="groceries_helpers_gif" />
+                    <img className="project-video static" src={gh_static} alt="groceries_helpers_gif" />
+                        <img className="project-video active" src={GH} alt="groceries_helpers_gif" />
                         {/* <video className="project-video" playsInline autoPlay muted loop>
                             <source src={GH} alt="trivia_gif" />
                         </video> */}
@@ -51,14 +59,15 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <img className="project-video" src={trivia} alt="trivia_gif"/>
+                        <img className="project-video static" src={trivia_static} alt="trivia_static"/>
+                        <img className="project-video active" src={trivia} alt="trivia_gif"/>
                     </div>
                     <div className="project-container">
                         <div className="project-name">
                             Trivia Game
                         </div>
                         <div className="project-description">
-                            General knowledge game based on Trivia APIs. The application connects to the Trivia APIs.
+                            Trivia game based on general knowledge questions. The application connects to the Trivia APIs.
                         </div>
                         <div className="project-tools">React • Mobile responsive • APIs • CSS</div>
                         <div className="project-links">
@@ -76,7 +85,8 @@ function Projects () {
 
                 <div className="project-container">
                     <div className="project-item">
-                        <img className="project-video" src={stock} alt="stock_gif" />
+                        <img className="project-video static" src={stock_static} alt="stock_static" />
+                        <img className="project-video active" src={stock} alt="stock_gif" />
                     </div>
                     <div className="project-container">
                         <div className="project-name">
@@ -95,17 +105,40 @@ function Projects () {
                     </div>
                 </div>
 
+                <div className="project-container">
+                    <div className="project-item">
+                        <img className="project-video static" src={pinrecipe_static} alt="pinrecipe_static" />
+                        <img className="project-video active" src={pinrecipe} alt="pinrecipe_gif" />
+                    </div>
+                    <div className="project-container">
+                        <div className="project-name">
+                            Pinrecipe
+                        </div>
+                        <div className="project-description">
+                            Pinrecipe is a digital cookbook, where users can store their favourite recipes and also share them with friends.
+                        </div>
+                        <div className="project-tools">Javascript • Express • NodeJS • MongoDB • Mongoose • CSS</div>
+                        <div className="project-links">
+                            <a href="https://github.com/ancaagp/stock_portfolio" target="_blank">
+                                <img src={github_icon_32} />
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className="project-container">
                     <div className="project-item">
-                        <img className="project-video" src={heart} alt="heart_gif"/>
+                        <img className="project-video static" src={heart_static} alt="heart_static"/>
+                        <img className="project-video active" src={heart} alt="heart_gif"/>
                     </div>
                     <div className="project-container">
                         <div className="project-name">
                             Mini Paint
                         </div>
                         <div className="project-description">
-                             A pixelated clone of paint with features such as fill
+                             A pixelated clone of paint with features such as fill.
                         </div>
                         <div className="project-tools">React</div>
                         <div className="project-links">
@@ -122,7 +155,8 @@ function Projects () {
                         {/* <video className="project-video" playsInline autoPlay muted loop>
                             <source src={meme} alt="trivia_gif" />
                         </video> */}
-                        <img className="project-video" src={meme} alt="stock_gif" />
+                        <img className="project-video static" src={meme_static} alt="meme_static" />
+                        <img className="project-video active" src={meme} alt="meme_gif" />
                     </div>
                     <div className="project-container">
                         <div className="project-name">
@@ -133,10 +167,10 @@ function Projects () {
                         </div>
                         <div className="project-tools">React • APIs • CSS</div>
                         <div className="project-links">
-                            <a href="https://github.com/ancaagp/meme_generator">
+                            <a href="https://github.com/ancaagp/meme_generator" target="_blank">
                                 <img src={github_icon_32} />
                             </a>
-                            <a>
+                            <a href="https://main--jocular-sherbet-5fa806.netlify.app/" target="_blank">
                                 <img src={link_30}/>
                             </a>
                         </div>

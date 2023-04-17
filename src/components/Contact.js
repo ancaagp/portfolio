@@ -27,7 +27,7 @@ function Contact () {
 
             <div className="contact-collab">Interested in collaborating with me?</div>
             <div>
-                <button className="contact-btn">Get in touch</button>
+                <button className="contact-btn" onClick={() => window.location = 'mailto:info@ancaagapi.com'}>Get in touch</button>
             </div>
             <div className="contact-online">Or find me on these online spaces:</div>
             <div className="contact-icons">
@@ -39,7 +39,6 @@ function Contact () {
                 </a>
             </div>
         </div>
-
     )
 }
 

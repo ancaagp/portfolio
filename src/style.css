@@ -34,6 +34,15 @@ h1 {
     margin-top: 0.5em;
 }
 
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+
 
  /* NAVIGATION MENU */
 
@@ -262,6 +271,7 @@ span {
     border-color: #17252A;
     border-radius: 10px;
     background-color: #fcde67;
+    cursor: pointer;
 }
 
 .contact-collab {
@@ -579,6 +589,7 @@ span {
 
     .contact-btn {
         font-size: 24px;
+        cursor: pointer;
     }
 
     #contact.contact {
@@ -602,11 +613,12 @@ span {
     width: 500px;
     height: 500px;
     font-family: 'Fira Code', monospace;
-    font-size: 400px;
+    font-size: 500px;
     background-color: #5bccf6;
     color:white;
     padding: 20px;
     margin: 50px;
     text-transform: lowercase;
+    border-radius: 50px;
 
 }

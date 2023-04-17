@@ -9,9 +9,9 @@ function About () {
             <h1 className="about-title title">ABOUT</h1>
             <div className="bio">
                 <div className="about-me">
-                    <text className="about-me">
+                    <div className="about-me">
                         <p>
-                        Marketer turned software engineer, I enjoy building user centric products and solving complex customer problems. My background lies at the intersection of marketing, data and tech. After working in tech teams as a Product Manager I decided to pursue my passion for technology and transition into a career as a software engineer. 
+                        Marketer turned software engineer, I enjoy building user centric products and solving complex customer problems. My background lies at the intersection of marketing, data and tech. After working in tech teams as Analyst and Product Manager I decided to pursue my passion for technology and transition into a career as a software engineer. 
                         </p>
                  
                         <br />
@@ -25,7 +25,7 @@ function About () {
                         <p>
                         When I’m not in front of my laptop, I like to be outdoors and enjoy the nature while running, biking or hiking the trails of California.
                         </p>
-                    </text>
+                    </div>
                 </div>
                 <div className="profile-image-container">
                     <img className= "profile-image" src={anca_img} alt="profile image"/>
