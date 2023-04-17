@@ -8,9 +8,9 @@ import meme from '../images/meme-gif-vf.gif';
 import stock from '../images/stock-gif-vf3.gif';
 import pinrecipe from '../images/pinrecipe-gif-vf1.gif';
 import heart_static from '../images/static/heart-static.png';
-import gh_static from '../images/static/gh-static.png';
+import gh_static from '../images/static/SomeoneHelping.png';
 import meme_static from '../images/static/meme-static.png';
-import pinrecipe_static from '../images/static/pinrecipe-static.png';
+import pinrecipe_static from '../images/static/pinrecipe.png';
 import stock_static from '../images/static/stock-static.png';
 import trivia_static from '../images/static/trivia-static.png';
 import '../style.css';
@@ -119,7 +119,7 @@ function Projects () {
                         </div>
                         <div className="project-tools">Javascript • Express • NodeJS • MongoDB • Mongoose • CSS</div>
                         <div className="project-links">
-                            <a href="https://github.com/ancaagp/stock_portfolio" target="_blank">
+                            <a href="https://github.com/ancaagp/pinrecipe" target="_blank">
                                 <img src={github_icon_32} />
                             </a>
                             
